@@ -1,0 +1,40 @@
+:root {
+    --primary: #4f46e5;
+    --dark-navy: #0f172a;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Hero Section Style */
+.hero-section {
+    height: 80vh;
+    background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), 
+                url('https://images.unsplash.com/photo-1558494949-ef010cbdcc51?q=80&w=2000');
+    background-size: cover;
+    background-position: center;
+}
+
+.resource-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 16px;
+}
+
+.resource-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4338ca;
+}
+
+.navbar-brand i {
+    margin-right: 8px;
+}
